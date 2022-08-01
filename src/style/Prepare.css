@@ -1,0 +1,259 @@
+.prepare-body{
+    height: 100%;
+    width: auto; 
+}
+.cardp{
+    position: relative;
+}
+
+.cardp .img-main{
+    height: 290px !important;
+    width: auto;
+    object-fit: cover;
+    border-radius: 20px;  
+}
+.bodyp{
+    padding-left: 0px !important;
+}
+.bodyp .titlep{
+    font-size: 20px;
+    text-align: left;
+    color: gray;
+}
+.prepare-text{
+    margin: 50px 0px !important;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.icons-con{
+    position: absolute;
+    width: 100%;
+    bottom: 34%;
+    padding: 0 27px;
+    display: flex;
+    justify-content: space-between ;
+}
+
+.icons-con p{
+    color: white;
+    line-height: 5px;
+
+}
+
+.playicon{
+    width: 100%;
+    height: auto;
+}
+
+.crown-white{
+    position: absolute;
+    height: 7%;
+    width: auto;
+    right: 25px;
+    top: 30px;
+    background-color: darkgrey;
+}
+
+/* ========================================================  */
+
+
+
+
+
+
+
+
+
+
+
+/* ==================================================================  */
+.contentimg-1 .radimg1{
+    /* margin-top: 10px; */
+    border-radius: 50%;
+    height: 100%;
+    width: 20%;
+}
+.mes-row{
+    display: flex;
+    border: 2px solid black;
+    justify-content: space-around !important;
+    /* padding-left: 100px */
+}
+.mes-text{
+    background-color: #3FCD5C;
+    /* padding: 25px 30px 20px 0px !important; */
+    width: 100%;
+    /* line-height: 10px; */
+    margin-right: 30px;
+    border-radius: 10px;
+    text-align: right;
+}
+/* .sed{
+    display: flex;
+    align-items: center;
+    width: 80%;
+
+    margin-left: 12%;      
+}
+
+.sed1{
+    display: flex;
+    align-items: center;
+
+    margin-left: 12%;      
+}
+
+
+.sed-content{
+    background-color: #3FCD5C;
+    padding: 25px 30px 20px 120px !important;
+    line-height: 10px;
+    margin-right: 20px;
+    border-radius: 10px;
+
+}
+
+.sed-content-1{
+    background-color: #3FCD5C;
+    padding: 25px 30px 20px 10px !important;
+    line-height: 10px;
+    border-radius: 10px;
+
+}
+
+.sed-content .content-first{
+    font-size: 15px;
+    color: white;
+}
+
+.sed-content .content-second{
+    font-size: 17px;
+    color: white;
+    font-weight: 400;
+}
+
+.sed-content .content-first{
+    text-align: end;
+}
+
+.sed-content .content-second{
+    text-align: end;
+} */
+
+
+
+
+.rankpe-content{
+    text-align: left;
+    padding-right: 100px;
+}
+.rankpe-content h2{
+    font-size: 38px;
+    font-weight: 700;
+}
+.rankpe-content p{
+    font-size: 25px;
+    font-weight: 400;
+    color: gray;
+}
+
+
+/* =========================== card ==============================  */
+.main-content{
+    padding: 0 60px !important;
+}
+.practice-1{
+    padding: 70px 30px;
+    justify-content: space-between;
+}
+.practice{
+    border-radius: 15px;
+    padding: 20px 50px;
+}
+.practice .img-cont{
+    text-align: center;
+    margin: 20px 0;
+}
+.practice .prc{
+    text-align: center;
+    margin: 25px 0;
+    font-weight: 700;
+
+}
+.practice .prc-p{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* -------------------------color----------------------  */
+.prc-color1{
+    background-color: rgb(137, 182, 137);
+}
+
+.prc-color2{
+    background-color: rgba(224, 205, 205, 0.689);
+}
+
+.prc-color3{
+    background-color: rgba(213, 150, 213, 0.676);
+}
+
+
+
+
+
+/* media query  */
+
+@media only screen and (min-width : 320px) and (max-width : 480px){
+    .Prepare-data{
+        height: 70%;
+        /* width: 50%;  */
+        padding: 0 50px !important;
+     /* margin-left: 18%; */
+    }
+.prepare-text{
+    font-size: 35px;
+}
+
+.rankpe-content{
+    margin-left: 10%;
+}
+.practice-1 {
+    padding: 30px 0px;
+    justify-content: space-between;
+}
+}
+
+
+/* @media only screen and (min-width : 481px) and (max-width : 768px){
+  
+
+    .main-content{
+        padding: 0 0px !important;
+    }
+    .practice-1 {
+        padding: 30px 0px;
+        justify-content: space-between;
+    }
+    .practice{
+        padding: 20px 50px;
+    }
+    .practice .img-cont{
+        text-align: center;
+        margin: 20px 0;
+    }
+    .practice .prc{
+        text-align: center;
+        margin: 25px 0;
+        font-weight: 700;
+    
+    }
+    .practice .prc-p{
+        text-align: center;
+        font-size: 18px;
+        font-weight: 500;
+    }
+} */

@@ -1,0 +1,41 @@
+.slick-prev
+{
+  color:  green !important; 
+  left: -8% !important;
+  top: 59% !important;
+  height: 40px !important;
+  width: 40px !important;
+
+  /* width:50px !important; */
+}
+
+.slick-next
+{
+  color:  green !important;
+  right:-7% !important; 
+  top: 25% !important;
+  height: 40px !important;
+  width: 40px !important;
+}
+
+
+.slick-slider {
+  margin:0 -1px;
+}
+.slick-slide {
+  /* padding:10px; */
+  /* background-color:red; */
+  text-align:center;
+  margin-right:15px;
+  margin-left:15px;
+}
+
+.card-wrapper{
+  margin:0 auto;
+}
+.cards-data{
+
+  width:30% !important;
+  margin:0 auto;
+
+}

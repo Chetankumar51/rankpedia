@@ -1,0 +1,53 @@
+.main-contentdata{
+    padding: 40px 0;
+}
+
+.img-content{
+    display: flex;
+    justify-content: space-evenly;
+    /* gap: 10px; */
+    flex-wrap: wrap;
+}
+
+.data p{
+    margin-top: 15px;
+    font-size: 21px;
+    line-height: 22px;
+}
+
+.img-backg{
+    position: relative;
+    height: 300px;
+    width: 250px;
+}
+
+.img-backg img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+    border-radius: 20px;
+ 
+}
+
+.icons-con{
+    position: absolute;
+    width: 100%;
+    /* top:0%; */
+    bottom: 25px;
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between ;
+    /* transform: translate(-50%,-50%); */
+}
+
+.icons-con p{
+    color: red;
+    line-height: 5px;
+
+}
+
+.playicon{
+    width: 100%;
+    height: auto;
+}

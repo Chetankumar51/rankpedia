@@ -1,0 +1,280 @@
+
+.background-img{
+    background-image: url('../assets/imgs/bg\ 1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.color-change{
+    background-color: aliceblue;
+    opacity: 0.4;
+}
+.img1{
+    height: 38px;
+    width: 148px;
+    /* color: red; */
+}
+.navbar1{
+    padding: 35px 60px !important;
+}
+
+.rectangle-copy-9{
+    height: 48px;
+    width: 148px;
+    border-radius: 8px;
+    background-color: #3FCD5C;
+    box-shadow: 0 6px 20px 3px rgba(15,15,15,0.1);
+    border: none;
+  }
+
+  .rectangle-copy-9 .login{
+    height: 14px;
+    width: 38px;
+    color: #FFFFFF;
+    font-family: "Helvetica Neue";
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 14px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+ .header-wrapper .menu-navbar-nav{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-wrapper .nav-item{
+    margin: 0 5px;
+}
+
+.header-wrapper .nav-item .nav-link{
+    height: 14px;
+    color: #FFFFFF;
+    font-family: "Helvetica Neue";
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 14px;
+    text-align: center;
+}
+
+
+
+/* content  */
+
+.header-wrapper .content{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    width: 100%;
+    font-size: 50px;
+    color: white;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    line-height: normal;
+    font-weight: 700;
+}
+
+.syllabus{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.btn-grade{
+    padding: 18px 28px 18px 28px;
+    border-radius: 8px;
+    background-color: #3FCD5C;
+    box-shadow: 0 6px 20px 3px rgba(15,15,15,0.1);
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin-top: 30px;
+}
+
+.crown-img{
+    position: relative;
+    bottom: 10px;
+    right: 10px;
+}
+
+
+
+
+
+@media only screen and (min-width : 320px) and (max-width : 375px){
+
+    .navbar-collapse{
+        background-color: #4c535d;
+        z-index: 1;
+    }
+    .navbar1{
+        padding: 30px 20px !important;
+    }
+
+    .background-img{
+      
+        height: 80vh;
+    }
+    .header-wrapper .nav-item .nav-link{
+        margin-top: 10px;
+    }
+    .rectangle-copy-9{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    
+      }
+    .img1{
+        width: 100%;
+    }
+    .header-wrapper .content{
+        top: 45%;
+        left: 50%;
+        width: 100%;
+        font-size: 25px;
+    }
+    .syllabus{
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .btn-grade{
+        padding: 18px 110px 18px 28px;
+        border-radius: 8px;
+        background-color: #3FCD5C;
+        box-shadow: 0 6px 20px 3px rgba(15,15,15,0.1);
+        border: none;
+        font-size: 16px;
+        font-weight: 600;
+        color: #FFFFFF;
+        margin-top: 30px;
+    }
+    
+}
+
+
+
+
+@media only screen and (min-width : 376px) and (max-width : 480px){
+     .navbar-collapse{
+        background-color: #4c535d;
+        z-index: 1;
+    }
+    .navbar1{
+        padding: 30px 20px !important;
+    }
+    .background-img{
+      
+        height: 60vh;
+    }
+    .img1{
+        width: 100%;
+    }
+    .header-wrapper .nav-item .nav-link{
+        margin-top: 10px;
+    }
+    .rectangle-copy-9{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    
+      }
+    .header-wrapper .content{
+        top: 33%;
+        left: 50%;
+        width: 100vw;
+        font-size: 30px;
+    }
+    .syllabus{
+        font-size: 20px;
+        font-weight: 400;
+    }
+    
+}
+
+
+@media only screen and (min-width : 768px) and (max-width : 992px){
+
+    .navbar-collapse{
+        background-color: #4c535d;
+        z-index: 1;
+    }
+    .navbar1{
+        padding: 30px 40px !important;
+    }
+    .background-img{
+      
+        height: 55vh;
+    }
+    .img1{
+        height: auto;
+        width: 100%;
+    }
+    
+.header-wrapper .nav-item .nav-link{
+    margin-top: 10px;
+}
+.rectangle-copy-9{
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+  }
+
+    .header-wrapper .content{
+        top: 28%;
+        left: 50%;
+        width: 100vw;
+        font-size: 40px;
+    }
+    .syllabus{
+        font-size: 20px;
+        font-weight: 400;
+    }
+    
+}
+
+
+@media only screen and (max-width : 1028px){
+    .header-wrapper .menu-navbar-nav{
+        width: 100%;
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+    }
+    .header-wrapper .nav-item{
+        margin: 0 0px;
+    }
+    
+    .header-wrapper .nav-item .nav-link{
+        height: 14px;
+        color: #FFFFFF;
+        font-family: "Helvetica Neue";
+        font-size: 12px;
+        font-weight: 500;
+        letter-spacing: 0;
+        line-height: 14px;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

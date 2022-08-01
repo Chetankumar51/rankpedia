@@ -1,23 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
+import Elastic from './components/Elastic';
+import Footer from './components/Footer';
+import Navbar from './components/Navbar';
+import Notes from './components/Notes';
+import Practice from './components/Practice';
+import Prepare from './components/Prepare';
+import Ready from './components/Ready';
+import Respons from './components/Respons';
+import Responsive from './components/ResponsiveSlider';
+import Sliderp from './components/Sliderp';
+import Subjects from './components/Subjects';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+        <Navbar />
+        <Notes />
+        <Subjects />
+        <Prepare />
+        <Ready />
+        {/* <Sliderp /> */}
+        <Footer />
+        {/* <Practice /> */}
+        {/* <Elastic /> */}
+        {/* <Responsive /> */}
+        {/* <Respons /> */}
+        
     </div>
   );
 }
